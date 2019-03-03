@@ -16,7 +16,7 @@ def assign_rooms(guests)
   room = []
   room_number = 1
   guests.each do |name|
-    room.push("Hello, #{name}. You'll be assigned room #{room_number}!")
+    room.push("Hello, #{name}. You'll be assigned to room #{room_number}!")
     room_number += 1
   end
   room
