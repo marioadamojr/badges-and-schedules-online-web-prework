@@ -25,6 +25,8 @@ end
 def printer(list)
   batch_badge_creator(list).each do |speaker|
     puts speaker
+  end
   assign_rooms(list).each do |room|
     puts room
+  end
 end
